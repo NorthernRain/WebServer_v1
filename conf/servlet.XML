@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<servlet>
+    <servlet-mapping>
+        <para-key>/myweb/reg</para-key>
+        <para-value>com.webserver.servlet.RegServlet</para-value>
+    </servlet-mapping>
+    <servlet-mapping>
+        <para-key>/myweb/login</para-key>
+        <para-value>com.webserver.servlet.LoginServlet</para-value>
+    </servlet-mapping>
+</servlet>
